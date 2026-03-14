@@ -1,0 +1,24 @@
+# Models and checkpoints
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# Hugging Face / training outputs
+checkpoint-*/
+final_model/
+saudibert_balanced_v1/
+tokenized_dataset/
+
+# Python
+__pycache__/
+*.pyc
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+.venv/git reset --soft HEAD~2
